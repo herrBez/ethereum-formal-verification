@@ -1,0 +1,26 @@
+\begin{frame}{EVM rigorous semantics~}
+
+\begin{block}{\cite{grishchenko2018semantic}}
+\begin{itemize}
+	\item Provide a rigorous complete small-step semantics of EVM bytecode
+	\item Formalization of (part of) the small-step semantics in F*
+	\begin{itemize}
+		\item F* dialect of ML can be compiled in OCaml $\implies$ validation against test suite
+	\end{itemize}
+	\item Allows to define and check security definitions, based on execution trace:
+	\begin{itemize}
+		\item Call Integrity
+		\item Exception Handling
+	\end{itemize}
+\end{itemize}
+\end{block}
+
+\begin{block}{KEVM~\cite{bib:kevm}}
+\begin{itemize}
+\item Definition of EVM with $\mathbb{K}$-Framework
+\item Show properties with reachability logic (can encode Hoare)
+
+\end{itemize}
+\end{block}
+
+\end{frame}
