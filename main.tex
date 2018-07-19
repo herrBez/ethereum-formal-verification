@@ -1,5 +1,6 @@
 \documentclass[usenames,dvipsnames]{beamer}
 
+\usepackage{appendixnumberbeamer}
 
 
 % For more themes, color themes and font themes, see:
@@ -26,6 +27,8 @@
 \usepackage[utf8x]{inputenc}
 
 \usepackage{listings}
+
+\setbeamertemplate{navigation symbols}{}
 
 \lstset{
   commentstyle=\color{ForestGreen},
@@ -116,13 +119,14 @@
 
 \input{./res/tool}
 
-
+\input{./res/concurrent-perspective-on-smart-contracts}
 
 \input{./res/open-challenges}
 
 
 
 
+\appendix
 
 
 \begin{frame}[allowframebreaks]
@@ -130,6 +134,7 @@
         \bibliographystyle{apalike}
         \bibliography{bibliography.bib}
 \end{frame}
+
 
 \input{./res/extra}
 
