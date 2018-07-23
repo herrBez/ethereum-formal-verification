@@ -1,20 +1,21 @@
 \begin{frame}{Theorem Provers}
-\begin{block}{\cite{hirai2017defining}}
-\begin{itemize}
-\item Definition of (part of) EVM in Lem
-\item Use Isabelle/HOL to proof invariants in 
-contracts
-\end{itemize}
-\end{block}
-\begin{block}{\cite{towardsVerifyingEthereumSmartContract}}
-\begin{itemize}
-\item Extends Hirai's EVM definition and verify it against \textbf{std. test suites}
-\item Build CFG (identify basic blocks):
-\item Define rules for programs, basic blocks and instructions  
-\item Separation logic ($\vDash\ [P]\ c\ [Q]$)
-\item Write manually the specification
-\item Prove theorems by using Isabelle/HOL
-\end{itemize}
-\end{block}
+    \begin{block}{\cite{hirai2017defining}}
+        \begin{itemize}
+            \item Definition of (part of) EVM in Lem
+            \item Use Isabelle/HOL to proof invariants in 
+            contracts
+        \end{itemize}
+    \end{block}
+    \begin{block}{\cite{towardsVerifyingEthereumSmartContract}}
+        \begin{itemize}
+            \item Extension of Hirai's EVM definiton
+            \item Verification against \textbf{stdandard test suites}
+            \item Build CFG (identify basic blocks):
+            \item Define rules for programs, basic blocks and instructions  
+            \item Separation logic ($\vDash\ [P]\ c\ [Q]$)
+            \item Write manually the specification
+            \item Prove theorems by using Isabelle/HOL
+        \end{itemize}
+    \end{block}
 
 \end{frame}
