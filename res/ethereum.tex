@@ -1,26 +1,26 @@
 \begin{frame}{Ethereum - Overview}
-\framesubtitle{\cite{bib:yellow}}
-\begin{itemize}
-\item Generalization of Bitcoin
-\item Support execution of \emph{quasi-}Turing Complete smart contracts
-\begin{itemize}
-\item Avoid abuse of network resources
-\item Each operation/opcode is associated with
-an amount of gas % $\implies$ termination guaranteed
-\item Gas price is determined per-transaction
-\end{itemize}
-\end{itemize}
+    \framesubtitle{\cite{bib:yellow}}
+    \begin{itemize}
+        \item Generalization of Bitcoin
+        \item Support execution of \emph{quasi-}Turing Complete smart contracts
+        \begin{itemize}
+            \item Avoid abuse of network resources
+            \item Each operation/opcode is associated with an amount of gas 
+            % $\implies$ termination guaranteed
+            \item Gas price is determined per-transaction
+        \end{itemize}
+    \end{itemize}
 \end{frame}
 
 %% Ethereum Intro
 \begin{frame}{Ethereum - World State}
-\framesubtitle{\cite{bib:yellow}}
-	 Save the (World/Global) State ($\sigma$) explicitly
-     \begin{itemize}
-     \item Partial function from Addresses to Account States
-     \item Externally owned account vs Contract Account
-    \end{itemize}	
-	 
+    \framesubtitle{\cite{bib:yellow}}
+    Save the (World/Global) State ($\sigma$) explicitly
+    \begin{itemize}
+    \item Partial function from Addresses to Account States
+    \item Externally owned account vs Contract Account
+    \end{itemize}    
+    
     \begin{figure}
         \begin{center}
             \includegraphics[width=0.91\textwidth]{./img/world-state}
@@ -29,25 +29,25 @@ an amount of gas % $\implies$ termination guaranteed
 \end{frame}
 
 \begin{frame}{Ethereum - Tx Execution}
-\framesubtitle{\cite{bib:yellow}}
+    \framesubtitle{\cite{bib:yellow}}
 %\begin{itemize}
 %\item Transactions alter the state
 %    \begin{itemize}
-%    	\item Message Call
+%        \item Message Call
 %        \item Contract Creation
 %    \end{itemize}
 %\end{itemize}
-\begin{center}
-\includegraphics[height=0.95\textheight]{./img/transaction-execution}
-\end{center}
+    \begin{center}
+        \includegraphics[height=0.95\textheight]{./img/transaction-execution}
+    \end{center}
 \end{frame}
 
 
 \begin{frame}{Execution Model - EVM}
-\framesubtitle{\cite{bib:yellow}}
-\begin{center}
-\includegraphics[width=0.8\textwidth]{./img/evm-overview}
-\end{center}
+    \framesubtitle{\cite{bib:yellow}}
+    \begin{center}
+        \includegraphics[width=0.8\textwidth]{./img/evm-overview}
+    \end{center}
 \end{frame}
 
 % EVM specifica nello yellow paper + molteplici formalizzazioni
@@ -55,9 +55,9 @@ an amount of gas % $\implies$ termination guaranteed
 
 
 \begin{frame}{Future directions}
-\begin{itemize}
-\item Proof-of-Stake
-\item Sharding
-\item Formal Verification of Smart Contracts
-\end{itemize}
+    \begin{itemize}
+        \item Proof-of-Stake
+        \item Sharding
+        \item Formal Verification of Smart Contracts
+    \end{itemize}
 \end{frame}
