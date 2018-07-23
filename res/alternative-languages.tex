@@ -28,7 +28,7 @@ contract Example {
     event XHasChanged(uint8 oldValue, uint8 newValue);
     
     modifier onlyOwner() {
-    	// Pre-conditions
+        // Pre-conditions
         require(msg.sender == owner);
         _; //Placeholder for the body of the function
         // Put additional post-conditions here
@@ -52,13 +52,13 @@ contract Example {
 \framesubtitle{\cite{bib:vyper-docs}}
 
   \begin{itemize}
-  	\item \textbf{Aim:} Write secure, human-readable  contracts:
-  	\begin{itemize}
-  		\item It gives up: modifiers, inheritance, inline assembly, function overloading, recursive calls, Infinite-length loops
-  	\end{itemize}
+      \item \textbf{Aim:} Write secure, human-readable  contracts:
+      \begin{itemize}
+          \item It gives up: modifiers, inheritance, inline assembly, function overloading, recursive calls, Infinite-length loops
+      \end{itemize}
     \item predictable gas consumption
     \item Resembles python
-  	\item \href{https://github.com/kframework/vyper-semantics/}{Formalization in $\mathbb{K}$-Framework}
+      \item \href{https://github.com/kframework/vyper-semantics/}{Formalization in $\mathbb{K}$-Framework}
   \end{itemize}
 
 \end{frame}
