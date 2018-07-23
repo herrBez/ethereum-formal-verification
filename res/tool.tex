@@ -1,34 +1,35 @@
 \begin{frame}{Static Analysis Tool}
-% https://consensys.github.io/smart-contract-best-practices/security_tools/
-\begin{block}{\href{https://github.com/trailofbits/manticore.git}{Manticore (Trail of Bits)}}
-symbolic execution, taint analysis, and instrumentation to analyze binaries.
-\end{block}
-\begin{block}{\href{https://github.com/ConsenSys/mythril}{Mythrill (Consensys)}}
-Concolic analysis, taint analysis and control flow checking to detect a variety of security vulnerabilities.
-\end{block}
+    % https://consensys.github.io/smart-contract-best-practices/security_tools/
+    \begin{block}{\href{https://github.com/trailofbits/manticore.git}{Manticore (Trail of Bits)}}
+        symbolic execution, taint analysis, and instrumentation to analyze binaries.
+    \end{block}
+
+    \begin{block}{\href{https://github.com/ConsenSys/mythril}{Mythrill (Consensys)}}
+        Concolic analysis, taint analysis and control flow checking to detect a variety of security vulnerabilities.
+    \end{block}
 
 
 \end{frame}
 
 \begin{frame}{Static Analysis Tool}
 
+    \begin{block}{SmartCheck~\cite{bib:smartcheck}}
+        \begin{itemize}
+            \item Lexical and syntactical analysis on Solidity Source Code
+            \item Detects vulnerability patterns 
+            \item Show errors in source code
+            \item It cannot describe complex rules $\implies$ false positives
+            \item No more activities since February 2018
+        \end{itemize}
+    \end{block}
 
-\begin{block}{SmartCheck~\cite{bib:smartcheck}}
-\begin{itemize}
-\item lexical and syntactical analysis on Solidity Source Code
-\item Detect vulnerability patterns 
-\item Show errors in source code
-\item False positives because it cannot describe complex rules
-\item No more activities since February 2018
-\end{itemize}
-\end{block}
 
-
-\begin{block}{Solgraph}
-Visualize Solidity control flow for smart contract security analysis
-\begin{itemize}
-\item Last release April 2017
-\end{itemize}
-\end{block}
+    \begin{block}{Solgraph}
+        Visualize Solidity control flow for smart contract security analysis
+        \begin{itemize}
+            \item Last release April 2017
+        \end{itemize}
+    \end{block}
+    
 \end{frame}
 
