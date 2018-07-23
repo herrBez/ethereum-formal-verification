@@ -1,20 +1,20 @@
 \begin{frame}{ETHIR}
 \framesubtitle{\cite{bib:ETHIR}}
-	\begin{itemize}
-		\item Decompilation of EVM bytecode
-		\item Modify Oyente to generate whole CFG
-		\begin{itemize}
-			\item If Solidity code available add information (e.g. function
-			name)
-		\end{itemize}
-		\item Translation of bytecode into Rule-Based Representation (RBR)
-		\item Analyze quantitative properties by using the high-level analyzer
-		SACO~\cite{bib:SACO}:
-		\begin{itemize}
-			\item Upper bound on number of iterations
-			\item Useful to infer gas consumptions
-		\end{itemize}
-		\item It is possible to adapt other static analyzers that work on
-		Intermediate Representation (e.g. AproVe, T2, VeryMax, CoFloCo)
-	\end{itemize}
+    \begin{itemize}
+        \item Decompilation of EVM bytecode
+        \item Modify Oyente to generate whole CFG
+        \begin{itemize}
+            \item If Solidity code available add information (e.g. function
+            name)
+        \end{itemize}
+        \item Translation of bytecode into Rule-Based Representation (RBR)
+        \item Analyze quantitative properties by using the high-level analyzer
+        SACO~\cite{bib:SACO}:
+        \begin{itemize}
+            \item Upper bound on number of iterations
+            \item Useful to infer gas consumptions
+        \end{itemize}
+        \item Contemplate Possibility to adapt other static analyzers that work
+        on Intermediate Representation (e.g. AproVe, T2, VeryMax, CoFloCo)
+    \end{itemize}
 \end{frame}
